@@ -1,0 +1,51 @@
+.blogs {
+    height: min-content;
+    // background-color: yellowgreen;
+}
+
+.blog-box {
+    // background-color: aquamarine;
+    // height: 50vh;
+    width: 90rem;
+    margin: 0 auto;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (max-width: $bp-large) {
+        width: 75vw;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 85vw;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 95vw;
+    }
+
+    &--pic {
+        width: 24rem;
+        height: 24rem;
+        overflow: hidden;
+
+        @media only screen and (max-width: $bp-small) {
+            display: none;
+        }
+        
+    }
+    
+    &--content {
+        width: 70%;
+        margin-right: 2rem;
+
+        @media only screen and (max-width: $bp-small) {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+}
+
+

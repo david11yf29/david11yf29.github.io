@@ -1,0 +1,72 @@
+.intro {
+    background-color: $color-background;
+    height: min-content;
+}
+
+.intro__box {
+    // background-color: orangered;
+    width: 70vw;
+    margin: -2rem auto 5rem auto;
+    display: flex;
+    
+    @media only screen and (max-width: $bp-large) {
+        width: 80vw;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        width: 90vw;
+    }
+
+
+    &--pic {
+        max-width: 25%;
+        height: 33%;
+        overflow: hidden;
+        border-radius: 20px;
+        margin-top: 2rem;
+        // background-color: aqua;
+        
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & > * {
+            width: 100%;
+            filter: brightness(90%);
+        }
+
+        @media only screen and (max-width: $bp-large) {
+            width: 24rem;
+            height: 22rem;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            display: none;
+        }
+    }
+
+    &--content {
+        width: 70%;
+        // background-color: aqua;
+
+        margin-left: 4vw;
+        margin-top: 0;
+        font-size: 2.2rem;
+        
+        & p {
+            color: rgba(0, 0, 0, 0.75);
+            font-family: $font-family-2;
+            line-height: 1.7;
+
+            @media only screen and (max-width: $bp-small) {
+                font-size: 2rem;
+            }
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}

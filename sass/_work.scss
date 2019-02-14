@@ -1,0 +1,63 @@
+.work {
+    height: min-content;
+}
+
+.company__box {
+    width: 60vw;
+    
+    // background-color: orangered;  
+    margin: 1vh auto;
+    margin-bottom: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 90vw;
+    }
+
+    @media only screen and (max-width: $bp-very-small) {
+        width: 100vw;
+    } 
+}
+
+.pic-box {
+    width: 25rem;
+    height: 20rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    background-color: #52565E;
+    border: none;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+        width: 100%;
+        filter: opacity(95%);
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        display: none;
+    }
+}
+
+.company__content {
+    // background-color: aqua;
+    margin-left: 4vw;
+    width: 65%;
+
+    @media only screen and (max-width: $bp-small) {
+        margin-left: 0;
+        width: 90%;
+    }
+}
+
+

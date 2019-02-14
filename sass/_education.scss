@@ -1,0 +1,76 @@
+.education {
+    background-color: $color-background;
+    height: min-content;
+}
+
+.school__box {
+    // background-color: orangered;
+    width: 90vw;
+    margin: 1vh auto;
+    margin-bottom: 5vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 85vw;
+    }
+
+    @media only screen and (max-width: $bp-very-small) {
+        width: 95vw;
+    } 
+}
+
+.school__pic-box {
+    // background-color: aqua;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 15%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    & > * {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        display: none;
+    }
+}
+
+.school__content {
+    // background-color: aqua;
+    margin-left: 3vw;
+    width: 70rem;
+
+    &--name {
+        color: #0066cc;
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+
+    &--position {
+        color: #5F9516;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 1vh 0;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 65%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        width: 100%;
+    }
+}
+

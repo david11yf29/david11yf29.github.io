@@ -1,0 +1,41 @@
+// COLOR VARIABLES
+$color-primary: #8A8D92;
+$color-heading: #292929;
+
+$color-secondary: #101d2c;
+$color-background: #FAFAFA;
+
+
+// FONT VARIABLES
+$font-family-1: 'Open Sans', sans-serif;
+$font-family-2: 'Lato', sans-serif;
+
+// BREAK POINT
+$bp-large: 75em; // 1200px
+$bp-medium: 56.25em; // 900px
+$bp-small: 40.625em; // 650px
+$bp-very-small: 28.75em; // 460px
+$bp-smallest: 21.25em; // 360px
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px 10px/16px = 62.5%
+}
+
+body {
+    font-family: $font-family-1;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}

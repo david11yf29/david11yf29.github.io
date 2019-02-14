@@ -1,0 +1,121 @@
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.88),rgba(0, 0, 0, 0.93));
+    height: min-content;
+    padding: 1rem;
+    padding-bottom: 4rem;
+
+    @media only screen and (max-width: $bp-small) {
+        padding-bottom: 2rem;
+    }
+}
+
+.footer-pic {
+    // background-color: aqua;
+    font-family: $font-family-2;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-pic-content {
+    margin-left: 1rem;
+
+    @media only screen and (max-width: $bp-very-small) {
+        display: none;
+    }
+    
+
+    & > * {
+        color: $color-background;
+        font-size: 1.25rem;
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1rem;
+        }
+    }
+    
+}
+
+.social {
+    margin: 2rem;
+    margin-top: 3rem;
+
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-small) {
+        margin: 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-very-small) {
+        margin: 0.5rem;
+    } 
+}
+
+.icon {
+    font-size: 6.5rem;
+    color: $color-primary;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 4.5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-very-small) {
+        font-size: 4rem;
+    }
+}
+
+.ion-logo-facebook,
+.ion-logo-instagram, 
+.ion-logo-linkedin, 
+.ion-logo-twitter {
+    transition: color 0.2s;
+}
+
+
+.ion-logo-facebook:hover,
+.ion-logo-facebook:active {
+    color: #3b5998;
+}
+
+.ion-logo-instagram:hover,
+.ion-logo-instagram:active {
+    color: #e95950;
+}
+
+.ion-logo-twitter:hover,
+.ion-logo-twitter:active {
+    color: #1dcaff;
+}
+
+.ion-logo-linkedin:hover,
+.ion-logo-linkedin:active {
+    color: #0077B5;
+}
+
+.footer-copyright {
+    // background-color: #e95950;
+    padding-top: 1rem;
+    text-align: center;
+
+    @media only screen and (max-width: $bp-very-small) {
+        padding-top: 0.8rem;
+    }
+    
+    & > * {
+        font-weight: 500;
+        color: $color-background;
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.1rem;
+        }
+
+        @media only screen and (max-width: $bp-very-small) {
+            font-size: 0.8rem;
+        }
+    }
+}
