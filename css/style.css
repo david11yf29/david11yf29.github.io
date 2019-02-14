@@ -114,6 +114,9 @@ p {
   @media only screen and (max-width: 28.75em) {
     .grating {
       line-height: 1.4; } }
+  @media only screen and (max-width: 21.25em) {
+    .grating {
+      line-height: 2; } }
 
 h4 {
   color: white;
@@ -131,6 +134,9 @@ h5 {
   @media only screen and (max-width: 28.75em) {
     h5 {
       font-size: 3.5rem; } }
+  @media only screen and (max-width: 21.25em) {
+    h5 {
+      font-size: 2.5rem; } }
 
 .intro {
   background-color: #FAFAFA;
