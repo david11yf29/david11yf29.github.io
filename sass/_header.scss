@@ -7,10 +7,6 @@
     background-position: center;
     background-attachment: fixed;
     position: relative;
-
-    @media only screen and (max-width: $bp-medium) {
-        background: url(/css/backgroundimg/california-losangeles.jpg) no-repeat fixed;
-    }
 }
 
 .grating {

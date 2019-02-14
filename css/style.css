@@ -104,9 +104,6 @@ p {
   background-position: center;
   background-attachment: fixed;
   position: relative; }
-  @media only screen and (max-width: 56.25em) {
-    .header {
-      background: url(/css/backgroundimg/california-losangeles.jpg) no-repeat fixed; } }
 
 .grating {
   width: 100%;
