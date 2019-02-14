@@ -20,12 +20,21 @@
             width: 5rem;
             margin: 1.5rem;
         } 
+
+        @media only screen and (max-width: $bp-smallest) {
+            width: 3rem;
+            margin: 1rem;
+        } 
     }
 
     @media only screen and (max-width: $bp-very-small) {
         font-size: 2.3rem;
         padding: 1rem 0;
         padding-top: 3rem;
+    } 
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 1.8rem;
     } 
 }
 

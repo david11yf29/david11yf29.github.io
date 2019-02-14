@@ -35,11 +35,18 @@ body {
         height: 1.5px;
         width: 5rem;
         margin: 1.5rem; } }
+    @media only screen and (max-width: 21.25em) {
+      .section__name::before, .section__name::after {
+        width: 3rem;
+        margin: 1rem; } }
   @media only screen and (max-width: 28.75em) {
     .section__name {
       font-size: 2.3rem;
       padding: 1rem 0;
       padding-top: 3rem; } }
+  @media only screen and (max-width: 21.25em) {
+    .section__name {
+      font-size: 1.8rem; } }
 
 h1 {
   color: #0066cc;
